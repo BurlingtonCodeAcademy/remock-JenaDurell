@@ -1,0 +1,136 @@
+#body{
+    background-color: cadetblue;
+    min-height: 500px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+
+
+#header{
+    width: 100%;
+    background-color: cyan;
+    color: tomato;
+    display: flex;
+    justify-content: center;
+    font-family:  Tahoma, Geneva,  sans-serif;
+    padding: 25px;
+}
+
+#features{
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+#home-img-container {
+    display: flex;
+    justify-content: space-around;
+    ;
+}
+.home-img-wrapper {
+    width: Calc(30% - 10px);
+    height: auto;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+}
+
+#orange-btn-wrapper {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    }
+
+.orange-btn {
+    background-color: coral;
+    color: cornflowerblue;
+    display: flex;
+    align-items: center;
+}
+
+#page-break {
+    display: flex;
+    background-color: darkgray;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+
+.quote {
+        color: white;
+        font-size: 36px;           
+    }
+
+
+
+.container {
+    background-color: indianred;
+    display: flex;
+    
+
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.post1 {
+    flex-direction: row;
+    align-items: stretch;
+    background-color: deepskyblue;
+    font-family: monospace;
+}
+.post2{
+    grid-area: post2;
+    background-color: greenyellow;
+    flex-direction: row;
+    align-items: stretch;
+}
+.post-title{
+    color: fuchsia;
+}
+
+
+.gray-border {
+    border: 10px solid darkgray;
+}
+
+.content-width{
+width: 60%
+min width=700 px
+}
+
+#page-break {
+    width: 100%;
+    height: 50px;
+    background-color: solid black;
+}
+
+#main {
+    background-color: cornflowerblue;
+}
+@media screen and (max-width: 768px) {
+    #header, #features {
+        width: 90vw;
+        min-width: 100 px;
+        flex-direction: column;
+    }
+}
+
+
+
