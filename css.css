@@ -334,12 +334,19 @@ button a {
 .name-email-input {
     width: 50%;
     font-size: large;
+    background-color: rgb(233, 232, 232);
+}
+
+.name-email-input:focus {
+    background-color: whitesmoke;
+
 }
 
 textarea {
     width: 98%;
     min-height: 300px;
     max-width: 100%;
+    background-color: rgb(233, 232, 232);
 }
 
 
