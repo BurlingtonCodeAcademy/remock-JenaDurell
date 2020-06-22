@@ -51,6 +51,9 @@ h4 a, h4 a:visited {
 
 }
 
+.sidebar-heading a:hover {
+    color: tomato;
+}
 
 h5 {
     display: flex;
@@ -127,6 +130,13 @@ h6 {
     padding: 10px;
     margin: 5px 5px 5px 5px;
 }
+
+button a {
+    text-decoration: none !important;
+    color: whitesmoke;
+}
+
+
 
 #page-break {
     display: flex;
@@ -217,11 +227,16 @@ h6 {
     height: auto;
 }
 
+.img-text-wrapper p{
+    margin-top: 0;
+}
+
 .img-text-wrapper {
     padding:3px;
 
 }
 .img-text-wrapper img {
+ box-sizing: border-box;
    margin-right: 4px;
     float: left;
 }
