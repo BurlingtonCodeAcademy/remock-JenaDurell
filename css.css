@@ -127,11 +127,17 @@ h6 {
     height: auto;
 }
 
-#orange-btn-wrapper {
+#orange-btn-wrapper-first {
     padding: 50px;
     display: flex;
     justify-content: center;
     margin: 10px 5px 10px 5px;
+}
+
+#orange-btn-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 5px 10px 0;
 }
 
 .orange-btn {
@@ -313,7 +319,8 @@ button a {
 #footer-column-2 {
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-between;
+    justify-content: space-around;
     }
 
 #footer-column-3 {
@@ -331,6 +338,7 @@ button a {
 #footer-form-container, #footer-contact-info {
     width: 50%;
     padding: 7px;
+    justify-content: stretch;
 }
 
 .footer-lower {
@@ -374,20 +382,10 @@ textarea {
     
 }
 
-#left-contacts {
-    display: flex;
-    flex-direction: column;
-}
-
-#right-contacts {
-    display: flex;
-    flex-direction: column;
-}
-
 .contacts {
     display: flex;
     flex-direction: row;
-}
+} 
 
 #column-1-learn-more {
     display: flex;
