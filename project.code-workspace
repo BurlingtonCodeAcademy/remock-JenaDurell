@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../example.html"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "remock-JenaDurell"
+	}
+}
